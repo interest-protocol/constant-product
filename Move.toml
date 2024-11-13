@@ -1,15 +1,15 @@
 [package]
-name = "MemezV2Invariant"
+name = "MemezInvariant"
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 license = "MIT"
 authors = ["Jose Cerqueira (jose@interestprotocol.com)"]
 version = "1.0.0"
+published-at = "0x01438b3f73f501a55ccd7dbbcb9d418f86cbab812572dc7847a79763145d1b2b"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
 
 
 [addresses]
-memez_v2_invariant = "0x0"
-std = "0x1"
+memez_invariant = "0x01438b3f73f501a55ccd7dbbcb9d418f86cbab812572dc7847a79763145d1b2b"
 sui = "0x2"
