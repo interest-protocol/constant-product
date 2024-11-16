@@ -4,11 +4,11 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 license = "MIT"
 authors = ["Jose Cerqueira (jose@interestprotocol.com)"]
 version = "1.0.0"
-# published-at = "0x01438b3f73f501a55ccd7dbbcb9d418f86cbab812572dc7847a79763145d1b2b"
+published-at = "0x9257e52d7a6545900184082fe8ad41cc6f61c3c65c14cd9710357a83bf0e1490"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet"}
 
 [addresses]
-constant_product = "0x0"
+constant_product = "0x9257e52d7a6545900184082fe8ad41cc6f61c3c65c14cd9710357a83bf0e1490"
 sui = "0x2"
