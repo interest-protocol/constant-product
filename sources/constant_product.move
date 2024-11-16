@@ -1,4 +1,4 @@
-module memez_invariant::memez_invariant;
+module constant_product::constant_product;
 
 // === Errors ===
 
@@ -10,7 +10,7 @@ const EInsufficientLiquidity: vector<u8> = b"Insufficient liquidity";
 
 // === Public-View Functions ===
 
-public fun invariant_(x: u64, y: u64): u256 {
+public fun k(x: u64, y: u64): u256 {
     (x as u256) * (y as u256)
 }
 
