@@ -10,8 +10,8 @@ const EInsufficientLiquidity: vector<u8> = b"Insufficient liquidity";
 
 // === Public-View Functions ===
 
-public fun k(x: u64, y: u64): u256 {
-    (x as u256) * (y as u256)
+public macro fun k($x: u64, $y: u64): u256 {
+    ($x as u256) * ($y as u256)
 }
 
 public fun get_amount_in(coin_out_amount: u64, balance_in: u64, balance_out: u64): u64 {
